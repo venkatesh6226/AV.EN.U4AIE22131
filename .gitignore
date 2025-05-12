@@ -1,12 +1,8 @@
 node_modules/
 .env
 dist/
-
-/.pnp
-.pnp.js
 .DS_Store
 /coverage
-
 /build
 .env.local
 .env.development.local
