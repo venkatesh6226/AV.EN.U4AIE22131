@@ -146,12 +146,6 @@ Redis is used to cache stock data and correlation results. The cache will be use
 - **Stock Data**: The stock prices and the average stock price are cached for `60 seconds`.
 - **Correlation Data**: The correlation between two tickers is cached for `60 seconds`.
 
-## Testing
-
-### Unit Tests
-
-You can add unit tests using libraries like Jest or Mocha. These tests should validate the API responses, caching logic, and other critical aspects of the backend functionality.
-
 ---
 
 **Note**: The app is designed to minimize API calls by caching data using Redis. Make sure Redis is up and running on the specified host and port in your `.env` file. Used homebrew for redis, it will not work with windows unfortunately. it would be better going with local caching
