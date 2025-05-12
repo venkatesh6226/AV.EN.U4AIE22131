@@ -4,7 +4,7 @@ dist/
 
 /.pnp
 .pnp.js
-
+.DS_Store
 /coverage
 
 /build
