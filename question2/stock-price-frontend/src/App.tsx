@@ -1,4 +1,3 @@
-// src/App.tsx
 import React from 'react';
 import StockPage from './components/StockPage';
 import CorrelationHeatmap from './components/CorrelationHeatmap';
